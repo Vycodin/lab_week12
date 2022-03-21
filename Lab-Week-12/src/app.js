@@ -25,3 +25,11 @@ function check_stu_grade(){
 }
 
 console.log(check_stu_grade())
+
+//part 4
+
+function darkmode(){
+    const dark_mode = document.querySelector('.light-theme')
+    dark_mode.classList.add('dark-theme')
+}
+darkmode()
