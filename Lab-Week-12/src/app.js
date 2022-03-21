@@ -12,8 +12,9 @@ const students = [
     { name: "Neelix", grades: [ 60, 54, 48, 50 ] }
   ]
   
-  const studentsScholarship = []
+
 function check_stu_grade(){
+    const studentsScholarship = []
   for (const st of students) {
       let total = st.grades.reduce((a,b) => a+b,0) / st.grades.length;
     if(total >= 80){
